@@ -1,0 +1,24 @@
+.flex-container{
+    margin: 10px;
+    border-radius:25px ;
+    border: 2px solid rgb(92, 179, 206);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.card{
+    height: 350px;
+    flex-basis: 30%;
+    margin: 10px;
+}
+h3{
+    color: #39b7dd;
+    text-align: center;
+}
+/* media quiers for mobile screen */
+@media  screen and (max-width:858px){
+    .card{
+        flex-basis: 100%;
+    }
+}
